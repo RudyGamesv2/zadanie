@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Poziom 3 CSS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+
+    <!-- icons for menu -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="inner-width">
+            <!-- <a href="#" class="logo"><img src="logo.png" alt=""></a> -->
+
+            <nav class="navigation-menu">
+                <a href="index.html"><i class="fas fa-home home"></i> Strona Głowna</a>
+                <a href="poziom1.html"><i class="fab fa-html5 about"></i> Poziom 1</a>
+                <a href="poziom2.html"><i class="fab fa-html5 about"></i> Poziom 2</a>
+                <a href="poziom3.html"><i class="fab fa-css3-alt css"></i> Poziom 3</a>
+                <a href="pobierz.html"><i class="fas fa-file-download download"></i> Pobierz pliki</a>
+                <a href="kontakt.html"><i class="fas fa-headset contact"></i> Kontakt</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+       <h1 class="title"><span>Poziom 3</span></h1>
+       <h1>CSS – kaskadowe arkusze stylów – język służący do programowania wyglądu stron
+        opartych o język html.</h1>
+
+
+
+        <div class="description">
+            <h3>Internal CSS</h3> 
+    <xmp> 
+● Sposobem kodowania wyglądu strony jest zawarcie kodu css
+między tagami <style> i </style> Tagi te wstawiamy między tagami <head> i
+</head>. W kodzie tym odnosimy się do elementów zawartych w treści
+strony
+● Do tagów html możemy odnosić się bezpośrednio np.h1 {color:red;}
+● Lub poprzez klasy oraz identyfikatory (id).
+● W tagach html wstawiamy atrybut class=”” lub id=””
+● Odwołanie się do klasy w css uzyskuje się za pomocą .nazwaklasy {kod
+css}
+● Odwołanie się do identyfikatora id otrzymuje się za pomocą #nazwa_id {kod
+css}
+● Różnica między klasami, a id jest taka, że klas używamy do elementów które
+wielokrotnie się powtarzają np. mamy wiele takich samych nagłówków, idy
+stosujemy, gdy chcemy zakodować wygląd pojedynczego elementu
+    </xmp>         
+        </div>
+            <div class="example">
+                <div class="text">
+                    <h3>Przykład</h3> <br>
+                    <p><b> Kliknij na obrazek</b> </p>
+                   <a target="_blank" href="img/poziom3.png"><img style="height: 200px;height: 200px;" src="img/poziom3.png" alt="podgląd"></a> 
+                  <p style="text-align: center;"><span> <b>Kliknij na obrazek</b> </span></p> 
+                </div>
+            </div>
+
+
+
+       <div class="description">
+        <h3>Inline CSS</h3> 
+<xmp> 
+    ● Kod css możemy umieszczać w kilku miejscach. Pierwszy sposób to
+    bezpośrednio w tagach html.
+    ● Przykład:
+    <p style="font-size: 200%;color: aquamarine">To jest powiększony i pokolorowany
+    tekst</p>
+    ● Jednak taki sposób kodowania wyglądu nie jest zalecany, ponieważ bardzo
+    negatywnie wpływa na przejrzystość kodu, oraz musimy wiele razy wykonać
+    te same czynności.
+    </xmp>
+          
+    </div>
+        <div class="example">
+            <p style="font-size: 200%;color: aquamarine">To jest powiększony i pokolorowany
+                tekst</p>
+        </div>
+        <div class="description">
+            <h3>Oddzielne pliki z kodem CSS</h3> 
+             <xmp> 
+● Ostatnim i najczęściej używanym sposobem dodawania wyglądu strony są
+oddzielne pliki, z rozszerzeniem .css
+● Odnosimy się w nich do elementów strony podobnie jak z uzyciem tagu <style>
+● Trzeba pamiętać o dodaniu odpowiedniego tagu dołączającego dany
+plik .css do strony html. Zawsze umieszczamy go w tagu <HEAD> <link rel="stylesheet" type="text/css" href="style.css"> 
+</xmp>  
+
+       
+
+    </section> <br>
+    <a href="pobierz.html" style="margin: 0 auto; text-align: center; display: table;" class="cta"> Zobacz więcej</a>
+</body>
+
+</html>

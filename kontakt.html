@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+
+    <!-- icons for menu -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false"
+    ondrag="return false" onbeforeprint="document.body.style.visibility = 'hidden'; alert('Wydruk jest niedostępny!')"
+    onafterprint="document.body.style.visibility = 'visible'">
+
+    <header>
+        <div class="inner-width">
+            <!-- <a href="#" class="logo"><img src="logo.png" alt=""></a> -->
+
+            <nav class="navigation-menu">
+                <a href="index.html"><i class="fas fa-home home"></i> Strona Głowna</a>
+                <a href="poziom1.html"><i class="fab fa-html5 about"></i> Poziom 1</a>
+                <a href="poziom2.html"><i class="fab fa-html5 about"></i> Poziom 2</a>
+                <a href="poziom3.html"><i class="fab fa-css3-alt css"></i> Poziom 3</a>
+                <a href="pobierz.html"><i class="fas fa-file-download download"></i> Pobierz pliki</a>
+                <a href="kontakt.html"><i class="fas fa-headset contact"></i> Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <form>
+        
+        <form action="mailto:fcmaro.g@gmail.com" method="post">
+            
+            <label for="imie">Imię: <span>*</span></label><br> <!-- etykieta pola tekstowego -->
+            <input class="text-input" type="tekst" name="imie" required><br> <!-- przykładowe pole tekstowe -->
+            <label for="nazwisko">Nazwisko </label><br>
+            <input class="text-input" type="tekst" name="nazwisko"><br>
+            <label for="email">E-mail: <span>*</span></label><br>
+            <input class="text-input" type="email" name="email" required><br>
+            <label for="haslo">Hasło: <span>*</span></label><br>
+            <input class="text-input" type="password" name="haslo" required><br>
+            <label for="data">Data urodzenia: </label><br>
+            <input class="text-input" type="date" name="data" ><br>
+            <label for="plec">Wybierz plec: <span>*</span></label><br>
+            <input type="radio" name="plec" value="mezczyzna" required>Mężczyzna <br>
+            <input type="radio" name="plec" value="kobieta" required>Kobieta<br>
+            <input type="checkbox" name="regulamin" required>Akceptuję <a href="regulamin.html">regulamin <span>*</span> </a><br><br>
+            <input class="cta"  type="submit" value="Wyslij"> <!-- przycisk umoliwiający wysłanie formularza -->
+            <input type="reset" class="cta" value="Reset">
+            </form> 
+        
+        
+
+</body>
+
+</html>

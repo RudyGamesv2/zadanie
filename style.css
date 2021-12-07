@@ -1,0 +1,288 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	/* font-size: 10px; */
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+	
+}
+
+a {
+	text-decoration: none;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p{
+	color: rgb(0, 0, 0);
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+h1,h2{
+    text-align: center;
+}
+.title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+    margin-top: 30px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.title span {
+	color: crimson;
+}
+
+
+ .services {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+ .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+ .service-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+ .service-text {
+	flex-basis: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+ .service-text::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+ .service-box .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+ .service-text h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+ .service-text p {
+	color: white;
+	text-align: left;
+}
+ .service-box .service-text {
+	flex-basis: 22%;
+	margin: 1.5%;
+}
+
+/* xmp{
+   
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width:40%;
+    border: 5px solid white;
+    margin-right: 10%;
+} */
+
+.example{
+    /* float: ; */
+    margin-top: 20px;
+    margin-left: 80px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 20px;
+
+    border: 4px dotted rgb(0, 0, 0);
+    margin-right: 10%;
+    /* background: rgb(197, 197, 197) ; */
+}
+
+.description{
+    /* float: ; */
+    margin-top: 40px;
+    margin-left: 80px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 15px;
+
+    border: 4px solid rgb(0, 0, 0);
+    margin-right: 10%;
+
+   
+}
+
+.description xmp{
+   font-size: 15px;
+}
+.example img{
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    width: auto;
+    height: auto;
+    
+}
+#poziom1{
+	content: '';
+
+
+    background-image: linear-gradient(
+60deg, #29323c 0%, #485563 100%);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: crimson;
+}
+
+span{
+    color: crimson;
+}
+	/* .description xmp{
+	content: '';
+
+    background-color:rgb(77, 75, 75) ;
+    opacity: 0.7;
+
+} */
+
+#contact{
+	margin-left: 40px;
+}
+form{
+	 max-width:420px; margin:50px auto; 
+}
+.text-input{
+	/* color:white; */
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+xmp{
+	color: rgb(255, 0, 0);
+
+}
+
+.required{ 
+	content:"*"; 
+}
+
+.example img:hover{
+ opacity: 0.7;
+ 
+} 
+
+.a :hover{
+	opacity: 0.7;
+	color: aqua;
+}
+
+.ziomki-rudego{
+	display: inline-block;
+	padding: 10px 30px;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+	border: 2px solid crimson;
+
+	text-transform: uppercase;
+/* 
+	margin-top: 30px; */
+	transition: 0.3s ease;
+
+}
+
+.ziomki-rudego:hover{
+	opacity: 1;
+	color: white;
+	background-color: crimson;
+}
+
+.code{
+	margin: 0 auto;
+	text-align: center;
+	display: table;
+	padding: 10px 30px;
+	color: rgb(0, 0, 0);
+	background-color: transparent; 
+	border: 2px solid #feca57; 
+
+	 text-transform: uppercase; 
+margin-top: 20px;
+	transition: 0.3s ease;
+}
+
+.code:hover {
+
+	background-color: #feca57;
+}

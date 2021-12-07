@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Poziom 2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+
+    <!-- icons for menu -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="inner-width">
+            <!-- <a href="#" class="logo"><img src="logo.png" alt=""></a> -->
+
+            <nav class="navigation-menu">
+                <a href="index.html"><i class="fas fa-home home"></i> Strona Głowna</a>
+                <a href="poziom1.html"><i class="fab fa-html5 about"></i> Poziom 1</a>
+                <a href="poziom2.html"><i class="fab fa-html5 about"></i> Poziom 2</a>
+                <a href="poziom3.html"><i class="fab fa-css3-alt css"></i> Poziom 3</a>
+                <a href="pobierz.html"><i class="fas fa-file-download download"></i> Pobierz pliki</a>
+                <a href="kontakt.html"><i class="fas fa-headset contact"></i> Kontakt</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+       <h1 class="title"><span>Poziom 2</span></h1>
+       <h1>Przykłady praktyczne</h1>
+       <div class="description">
+        <h3>Strony w HTML są zbudowane w oparciu o standardową strukturę głównych tagów:</h3> 
+<xmp> 
+    1. Tabela jak każdy element strony ma swój tag początkowy <table> i tag kończący
+        tabelę </table>
+        2. Tag wiersza to <tr>
+        3. Tag kolumny to <td>
+        4. Tabele tworzymy wpisując między tagi wiersza tagi kolumn. Pomiędzy tagi
+        kolumn wpisujemy to co ma się znaleźć w komórce. Tabela z 1 wierszem i 3
+        kolumnami wygląda następująco:
+        <table>
+        <tr><td>komórka 1,1</td><td>komórka 1,2</td><td>komórka 1,3</td></tr>
+        </table> 
+        5.Dodajmy do tabeli ramkę poprzez dodanie argumentu border <table
+        border=”1px”>
+        6.Pierwszy element w tabeli to komórka nagłówkowa, która może opisywać
+        kolumny i wiersze <th>
+    </xmp>
+          
+    </div>
+        <div class="example">
+            <table >
+                <tr><td>komórka 1,1</td><td>komórka 1,2</td><td>komórka 1,3</td></tr>
+                </table> 
+        </div>
+
+
+        <div class="description">
+            <h3> Kod Przykładowej tabeli: </h3> 
+    <xmp> 
+        <table border=”1px”>
+            <tr><th></th><th>kolumna 1</th><th>kolumna 2</th><th>kolumna 3</th></tr>
+            <tr><th>wiersz 1</th><td>1</td><td>2</td><td>3</td></tr>
+            <tr><th>wiersz 2</th><td>4</td><td>5</td><td>6</td></tr>
+            <tr><th>wiersz 3</th><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+    </xmp>          
+        </div>
+            <div class="example">
+                <div class="text">
+                    <h3>Podgląd</h3> <br>
+                    <table border=”1px”>
+                        <tr><th></th><th>kolumna 1</th><th>kolumna 2</th><th>kolumna 3</th></tr>
+                        <tr><th>wiersz 1</th><td>1</td><td>2</td><td>3</td></tr>
+                        <tr><th>wiersz 2</th><td>4</td><td>5</td><td>6</td></tr>
+                        <tr><th>wiersz 3</th><td>7</td><td>8</td><td>9</td></tr>
+                    </table>
+                </div>
+            </div>
+
+    </section> <br>
+    <a href="poziom3.html" style="margin: 0 auto; text-align: center; display: table;" class="cta"> Następny poziom</a>
+</body>
+
+</html>
